@@ -14,8 +14,10 @@ class number {
      }
      /// compiler ek default copy const har class ko alot kr deta hai 
      //compiler provides its own copy constructor 
-     number (number &obj ){
-      //copy const is called 
+     number (number &obj )// 
+     {
+
+      
       cout<<"copy const. is called "<<endl;
 
         a =obj.a;
@@ -29,13 +31,16 @@ class number {
 
 };
 int main (){
-    number x,y(6);//ek empty constructor default constructor banana padega 
+    number x,y(6),c;//ek empty constructor default constructor banana padega 
 x.display();
 y.display();
 number z1(x);
 z1.display();
 number z4= y;
+z4.display();
 
+c=x;// 
+c.display();
 
 // z1 should exactly resemnble x or y or z 
 
