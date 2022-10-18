@@ -21,7 +21,7 @@ count --;
 };
 int num :: count ;
 int main (){
-cout<<"we ar in main function "<<endl;
+cout<<"we are in main function "<<endl;
 cout<<"creating the first object num1 "<<endl;
 
 num n1;{
