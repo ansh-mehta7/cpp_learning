@@ -1,4 +1,7 @@
-#include <iostream>
+//not in scope of class 
+ //cant be called from the objects of the class
+ //generally takes objects as arguments 
+ #include <iostream>
 using namespace std;
 class complex {
     int a ,b;
@@ -22,9 +25,8 @@ void printnumber (){
 //ek chor function bhi to ho sakta hai ye 
 //sumcompllex class ka member nhi bana hai matlab abhi objects sumcomplex ko access nhi kar sakte hai 
 int sumrealcomplex (complex o1 ,complex o2){
-//complex o3;
+
 return ((o1.a+o2.a));
-//return o3;
 
 }
 
