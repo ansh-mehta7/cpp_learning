@@ -27,7 +27,7 @@ private :
 base b ;
  derived d;
   //cout << b.a;  ese access nhi kar sakte 
-  cout << b.a;  
+ // cout << b.a;  
 
     return 0;
 

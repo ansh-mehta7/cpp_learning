@@ -14,15 +14,15 @@ class number {
      }
      /// compiler ek default copy const har class ko alot kr deta hai 
      //compiler provides its own copy constructor 
-     number (number &obj )// 
-     {
+   //   number (number &obj )// 
+   //   {
 
       
-      cout<<"copy const. is called "<<endl;
+   //    cout<<"copy const. is called "<<endl;
 
-        a =obj.a;
+   //      a =obj.a;
 
-     }
+   //   }
      void display()
      {
         cout<<"the number is "<<a <<endl;

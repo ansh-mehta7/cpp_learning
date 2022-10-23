@@ -48,6 +48,7 @@ employee::getcount();
     ayush.getdata();/////count abhi static nahi h islie har object ke lie vo 0 se initilaise ho rha hai 
 
     ayush.getcount();//////count abhi static nahi h islie har object ke lie vo 0 se initilaise ho rha hai 
+//cout<<employee::count;
 
     return 0;
 }

@@ -16,12 +16,14 @@ void showprice(void);
 
 };
 void shop ::getprice (){
+    for (int i = 0; i < 5; i++){
     cout<<"enter the id of your item "<<counter+1<<endl;
     cin>>itemid[counter];
     cout<<"enter the price "<<endl;
     cin>>itemprice[counter];
+    
     counter ++;//har object ke lie counter =0 se initialze hoga islie hum usko static variable bna dete hai 
-
+    }
 
   
 }
