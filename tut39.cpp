@@ -3,11 +3,11 @@
  class base {
     protected :
 
-    int a ; // a ko inherit krna chahta hu lekin public bhi nhi bnana echahta hu 
+    int a ; // a ko inherit krna chahta hu lekin public bhi nhi bnana chahta hu 
     // private rahe lekin inherit ho jae to protected use karenge 
 private :
 
-     int b ;// jyad asensitive  h islie private 
+     int b ;// jyada  sensitive  h islie private 
 
     
  };
@@ -26,8 +26,8 @@ private :
  {
 base b ;
  derived d;
-  //cout << b.a;  ese access nhi kar sakte 
- // cout << b.a;  
+  //cout << b.a;  ese access nhi kar sakte private jaisa behaviour hi show karega 
+//  cout << d.a;  
 
     return 0;
 

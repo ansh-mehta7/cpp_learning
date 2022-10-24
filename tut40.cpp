@@ -1,5 +1,5 @@
 // multilevel inheritence
-// deriving classes from derived classes
+// deriving classes from derived classes is called multilevel inheritence 
 #include <iostream >
 using namespace std;
 class student

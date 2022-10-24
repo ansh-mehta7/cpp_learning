@@ -1,4 +1,5 @@
-#include <iostream>
+// nesting of member function kar sakte haun bhalehi inheritence private ho
+ #include <iostream>
 using namespace std;
 class base
 {

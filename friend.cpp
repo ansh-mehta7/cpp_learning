@@ -1,6 +1,6 @@
 //not in scope of class 
  //cant be called from the objects of the class
- //generally takes objects as arguments ok
+ //generally takes objects as arguments 
  #include <iostream>
 using namespace std;
 class complex {

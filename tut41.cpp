@@ -1,5 +1,5 @@
-
 //         multiple inheritence 
+//multiple base class to one derived class 
 #include <iostream >
 using namespace std;
 //  class derived :visib mode  base1, visib mode base 2{
@@ -33,7 +33,7 @@ public:
         void show()
         {
             cout << "the value of base 1 is " << base1int << "the value of base 2 is " << base2int << endl;
-            cout << base1int + base2int;
+            cout << "the sum is "<<base1int + base2int;
         }
     };
 

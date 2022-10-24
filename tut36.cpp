@@ -26,7 +26,7 @@ class memebers and methods {
 
 private visib mode = public memebers of the base class becomes private mebers of the derived class
 public visib mode =public members of the base class becomes public members of the derived  class
-private members are never inherited
+private members cant be  inherited
 */
 // creating a programmer  derived class from base class
 #include <iostream >
@@ -36,7 +36,8 @@ class employee
 public:
     int id;
     float salary;
-    employee() {}
+     employee() {} // ek default constructor banana padega because derived class ka object base class ke 
+    // constructor ko bhi calll karega 
     employee(int iid)
     {
         id = iid;
@@ -62,6 +63,7 @@ int main()
     employee harry(1);
     cout << harry.salary;
     programmer ansh(2);
+    //  cout<<ansh.id; id ab private ho gya  h to ese access nhi kar sakte 
     // at this point error ayega employee::employee because programmer employee se i nherit  hua hai to ye employee ke default constructor
     // ko call krne ki koshish karega jo ki hame banana padega
     // cout<<ansh.id;
