@@ -1,5 +1,9 @@
 // ambiguity resolution in c++ ek hi function base 1 me bhi ho 2 m2 bhi ho to derived
 // me konsa aaega same name ka function
+// agar derived class me function ko define nhi kiy h to inherited class base class ke func ko by defaukt run 
+// kr deti hai 
+// or agra derived class me hai to objects agar derived class ka banke run kre to vo apna rn kar dega 
+
 #include <iostream>
 using namespace std;
 class base1
@@ -38,10 +42,10 @@ class b {
      };
 class d: public b {
     public :
-    //  void say (){
-    //      cout<<"world ";
+     void say (){
+         cout<<"world ";
 
-    //  }
+     }
 };
 
 

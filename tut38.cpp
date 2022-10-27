@@ -23,7 +23,7 @@ public:
     }
 };
 
-class derived : public base// class is being derived publically 
+class derived : public  base// class is being derived publically 
 {
     int data3;
 

@@ -20,6 +20,7 @@ public:
 
 class exam : public student
 {
+    // is class ko roll protected hoke hi milega 
 protected:
     float maths;
     float physics;
@@ -37,6 +38,7 @@ public:
 };
 class result : public exam
 {
+    // isko roll maths physics protected  milege matlab inherit ho jaega 
     float percentage;
 
 public:
@@ -57,6 +59,7 @@ int main()
 {
     result harry;
     harry.set_roll(23);
+    harry.get_roll();// protecyed ko bhi objects ke through aap access kar skate ho 
     harry.setmarks(99, 37);
     harry.display();
     return 1;

@@ -16,7 +16,7 @@ single =a derived class from only one base class
 
  hybrid =combination of multiple and multilevel
 
- */
+ */ 
 // derived class syntax
 
 /*class {{derived class name }}: {{visibility mode }} {{ base class  name }}
@@ -34,7 +34,7 @@ using namespace std;
 class employee
 {
 public:
-    int id;
+    int id;  // id is public 
     float salary;
      employee() {} // ek default constructor banana padega because derived class ka object base class ke 
     // constructor ko bhi calll karega 
@@ -44,7 +44,8 @@ public:
         salary = 100;
     }
 };
-class programmer : private employee
+// class programmer : employee
+class programmer : employee
 {
 public:
     int langcode = 4;
@@ -62,8 +63,11 @@ int main()
 {
     employee harry(1);
     cout << harry.salary;
-    programmer ansh(2);
-    //  cout<<ansh.id; id ab private ho gya  h to ese access nhi kar sakte 
+    programmer ansh(2); 
+    // cout<<ansh.id;
+     ansh.getdata();
+
+   //  id ab private ho gya  h to ese access nhi kar sakte 
     // at this point error ayega employee::employee because programmer employee se i nherit  hua hai to ye employee ke default constructor
     // ko call krne ki koshish karega jo ki hame banana padega
     // cout<<ansh.id;
@@ -71,3 +75,12 @@ int main()
 
     return 0;
 }
+// inherit hi nhi hoga nuiche nhi aaega id ahgar id private hua to  id ko inherit 
+// krne ke lie hame usko public banana padega 
+// ansh.id ko bhi hum print nahi kr paenge 
+// we can inherit the function which have private members bhale hi inheritence 
+ // nhi private ho to nhi access ho jaega 
+ // private members ka to app refrence hi nhi de sakte ho derived class me 
+ // bhale hi vo koi bhi mode ka inheritence ho 
+ // public variable bhale h iprivate mode me ionherit hue ho uka refrence 
+ // le sakte hai print ya memmber functions me 

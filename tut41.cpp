@@ -27,7 +27,7 @@ public:
             base2int = a;
         }
     };
-   class derived :public base1, public base2 // idhar base 3 bhi ho sakt hai jitni chahe utni base classes ho sakti hain 
+   class derived :public base1, public  base2 // idhar base 3 bhi ho sakt hai jitni chahe utni base classes ho sakti hain 
     {
     public:
         void show()
