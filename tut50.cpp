@@ -5,7 +5,7 @@ using namespace std;
     // new opertor 
      int * arr =new int [3];
 
-     *(arr)=10;
+     (*arr)=10;
      arr[1]=11;
      arr[2]=12;
      
