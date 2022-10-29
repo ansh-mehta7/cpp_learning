@@ -29,7 +29,7 @@ public:
     }
 };
 
-class test : virtual public student
+class test :  virtual  public student
 {
 protected:
     float maths, physics;
@@ -46,7 +46,7 @@ public:
     }
 };
 
-class sports : public virtual student
+class sports : public virtual  student
 {
 protected:
     float score;

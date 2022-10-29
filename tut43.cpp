@@ -2,7 +2,7 @@
 // me konsa aaega same name ka function
 // agar derived class me function ko define nhi kiy h to inherited class base class ke func ko by defaukt run 
 // kr deti hai 
-// or agra derived class me hai to objects agar derived class ka banke run kre to vo apna rn kar dega 
+// or agar derived class me hai to objects agar derived class ka banke run kre to vo apna rn kar dega 
 
 #include <iostream>
 using namespace std;
