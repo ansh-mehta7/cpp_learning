@@ -4,7 +4,7 @@
   class A {
      int a;
       public :
-       A &setdata (int a ){
+       A &setdata (int  a ){
       // void setdata (int a ){
         // this will throw error therfore we use this opertor 
         // this us object ke lie member function ko invoke kar deta hai 
@@ -26,7 +26,7 @@
 
   int main (){
      A b;
-     b.setdata(6).getdata();
+     b.setdata(6).getdata(); // setdata hi return kar rha hai jis pe directly getdata run kr sakte hain 
 
      //b.getdata();
      return 1;

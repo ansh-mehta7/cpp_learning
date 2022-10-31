@@ -16,7 +16,11 @@ class Complex{
 
 };
 int main(){
-    Complex *ptr = new Complex;
+    //  Complex c1;
+    //   Complex * ptr =&c1;  conventional method 
+
+    // new operator ka use karke hathohath bhi objects bna sakte hai 
+     Complex *ptr = new Complex;
     (*ptr).setData(1, 54); ///is exactly same as
     (*ptr).getData(); //is as good as 
 

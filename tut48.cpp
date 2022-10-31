@@ -4,6 +4,9 @@
 // base class have no arguments then no need of constructor in derived class 
 // if base class constructor  has more than one arguments derived class constructor has to pass arguments to the base class 
 // if both base and derived class has arguments then base class constructor is called first  
+
+// in case of multiole inheritence baase classes are cond=structed in the order in which they appear in class derivation  
+ // in case of multilevel inheritence the constructores are executed in the order  of inheritence 
 // c++ me ek special syntax hota hai arguments pass krne ka constructors ke lie 
 // virtual base class ka constructor pehle run hoga 
 
@@ -38,7 +41,7 @@
      }
  };
  // ye change krne se order change hoga 
-  class derived : public base1 , public base2
+  class derived : public base2 , public base1 
   // 
   {
 

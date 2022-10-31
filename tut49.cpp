@@ -11,7 +11,7 @@ int a ;
 //    test (int i , int j  ): a (i), b (j )
 //    test (int i , int j  ): a (i), b (j*2 )
    test (int i , int j  ): b (j ), a (i+b )
-   // error dega becuse a will be initilsed first 
+   // error dega becuse a will be initilsed first to value bhi pehle a ko hi deni padegi  
    
    
    // ye bhi run ho jaega kyko a ki value available hogi yahan
