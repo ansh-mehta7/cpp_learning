@@ -6,11 +6,6 @@
  5. a virtual function defined in the base class there is no necessacity of it in 
  to describe in derived class vo default base class ka hi run ho jaega   */
 
-
-
-
-
-
 #include <iostream>
 #include<string.h>
 using namespace std;
@@ -26,9 +21,11 @@ using namespace std;
 
 
     }
-    virtual void display(){
+    virtual void display()=0 ;// do nothing func or pure virtual function 
+    // koi esi derived class ni ban jae jo meri redfintiion na kare 
+  //   abstract base class se new classes banegi un pr new kaam hoga 
 
-    }
+    
  };
  class cwh_video: public cwh{
     int videolength;
