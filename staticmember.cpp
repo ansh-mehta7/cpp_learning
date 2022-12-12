@@ -2,7 +2,7 @@
 #include <iostream>
 using namespace std;
 class employee
-{
+{ 
     int id;
   static  int count;
   //static variable ko class ke bahar likht hai

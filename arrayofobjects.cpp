@@ -10,7 +10,7 @@ class employee {
         cout<<"enter the the id of the employee  "<<endl;
         cin >>id;
 
-
+ 
      }void getid (){
         cout<<"the id of the employee is "<<id <<endl;
 

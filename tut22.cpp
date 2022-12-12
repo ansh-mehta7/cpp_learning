@@ -58,6 +58,6 @@ int main()
     //b.check();
     b.display();
      b.ones();
-    b.display();
+    // b.display();
     return 1;
 }                             

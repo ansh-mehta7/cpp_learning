@@ -19,6 +19,7 @@ int main()
     int money=100000;
 
     cout<<"if u have "<<money<<"rs in your bank account "<<moneyrecieved(money,1.06)<<"after 1 year";
+    cout<<"if u have "<<money<<"rs in your bank account "<<moneyrecieved(money)<<"after 1 year";
 
     return 1;
 }

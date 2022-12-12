@@ -30,16 +30,20 @@ void shop ::getprice (){
 void shop::showprice(){
     for (int i = 0; i < counter; i++)
     {
-         cout<<"the price of your item id "<<itemid[i]<<"is "<<itemprice[i];
+         cout<<"the price of your item id "<<itemid[i]<<"is "<<itemprice[i]<<endl;
     }
 }
 
 int main(){
-    shop dukaan;
+    shop dukaan,sharmila;
     dukaan.initcounter();
     dukaan.getprice();
     // dukaan.getprice();
     dukaan.showprice();
+    sharmila.initcounter();
+    sharmila.getprice();
+    // dukaan.getprice();
+    sharmila.showprice();
 
     return 0;
 }

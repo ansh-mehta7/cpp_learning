@@ -25,7 +25,7 @@ using namespace std;
 // cout<<"the factorial of a is "<<factorial(a)<<endl;
 // return 1;
 
-// }
+// } 
 int fibonacci (int n){
     if (n<=1)
     {
@@ -43,6 +43,6 @@ int main (){
 //n!= n*(n-1)!
 cout<<"enter the number at position of fibonacci  "<<endl;
 cin >>a;
-cout<<"the term in fibonacci series till (a) position  is "<<fibonacci(a)<<endl;
+cout<<"the term in fibonacci series till "<<a<<"  position  is "<<fibonacci(a)<<endl;
 return 1;
 }
