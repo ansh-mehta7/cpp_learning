@@ -1,23 +1,19 @@
 #include <iostream>
 using namespace std;
-class complex ;
+ class complex ;
 //complex class ka forward declaration karna padega for compiler to understand 
 //ki ha bhaiya aage complex class hain 
 
 class calculator {
     int a,b;
      public :
-     int  add (int a ,int b )
-{
-    return a+b;
-
-}
+    
 int sumrealcomplex (complex o1 ,complex  o2 );//function defination nhi di hai abhi tak nhi to compiler ko kese pta chalega 
 int sumcompcomplex (complex o1 ,complex  o2 );//function defination nhi di hai abhi tak nhi to compiler ko kese pta chalega 
 //ki apan ne class define kr di hai islie hum usko niche declare kr rhe hain class complex ke badd 
 
 // {
-//     return ((o1.a+o2.a));
+//     return  ((o1.a+o2.a));
 
 // }
 };

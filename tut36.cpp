@@ -62,8 +62,8 @@ public:
 int main()
 {
     employee harry(1);
-    cout << harry.salary;
-    programmer ansh(2); 
+     cout << harry.salary;
+    programmer ansh(2);
     // cout<<ansh.id;
      ansh.getdata();
 

@@ -8,7 +8,7 @@ sports class
 and final class is result jo test or sports se mil kar ban ri hai
 student  ke variable test or sports dono me hi aenge islie student ko hum
  virtual base class bna denge
- virtual base class ka data member ek bar se jyada inherit  hi hoga fir
+ virtual base class ka data member ek bar se jyada inherit  ni hoga fir
 
 */
 #include <iostream >
@@ -58,7 +58,7 @@ public:
     }
     void print_score(void)
     {
-        cout << "your score is " << score;
+        cout << "your score is " << score<<endl;
     }
 };
 class result : public test, public sports

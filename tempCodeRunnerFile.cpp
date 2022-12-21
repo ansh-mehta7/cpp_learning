@@ -1,1 +1,1 @@
-cout<<"the sum of a and b is "<<product(a,b);
+virtual 

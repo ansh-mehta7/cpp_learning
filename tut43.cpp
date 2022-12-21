@@ -29,7 +29,7 @@ class derived : public base1, public base2
     public:
 
     void greeting (){
-base1::greeting();// ambiguity solve by scope resolution operator 
+// base1::greeting();// ambiguity solve by scope resolution operator 
 
     }
 
@@ -43,7 +43,7 @@ class b {
 class d: public b {
     public :
      void say (){
-         cout<<"world ";
+        b::say();
 
      }
 };
@@ -51,15 +51,16 @@ class d: public b {
 
 int main()
 {
-//     base1 obj;
-//     base2 job;
-//     obj.greeting();
-//     job.greeting();
-// derived d;
+    base1 obj;
+    base2 job;
+    // obj.greeting();
+    // job.greeting();
+derived d;
+d.base2::greeting();
 //  d.greeting(); // ye abhi ambigious hai kis class ka greeting lena hai 
- d d1;
+//  d d1;
 
-d1.say();
+// d1.say();
 
     return 0;
 }

@@ -3,7 +3,7 @@
 // function overloading virtual functions 
 // compile time and run time ploymorphism  complile time include function and operotor overloading 
 // run time include virtual functions  
-// pointers to the derived classes 
+// pointers to the derived classes
 #include <iostream>
  using namespace std;
   class baseclass {

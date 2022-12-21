@@ -5,7 +5,7 @@
 // if base class constructor  has more than one arguments derived class constructor has to pass arguments to the base class 
 // if both base and derived class has arguments then base class constructor is called first  
 
-// in case of multiole inheritence baase classes are cond=structed in the order in which they appear in class derivation  
+// in case of multiole inheritence baase classes are constructed in the order in which they appear in class derivation  
  // in case of multilevel inheritence the constructores are executed in the order  of inheritence 
 // c++ me ek special syntax hota hai arguments pass krne ka constructors ke lie 
 // virtual base class ka constructor pehle run hoga 
@@ -67,9 +67,9 @@
  };
   int main (){
 derived ansh(1,2,3,4);
- ansh.printdatab1();
- ansh.printdatab2();
- ansh.printdatadd();
+//  ansh.printdatab1();
+//  ansh.printdatab2();
+//  ansh.printdatadd();
 
 
      return 0;
