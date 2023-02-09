@@ -16,22 +16,20 @@ public:
    // constructor declaration
    // it is automaticallly invoked whenever the object is created
 
-   void printdata()
-   {
-      cout << "your number is " << a << "+i" << b << endl;
-   }
+   
 };
 //constructor ka matlab h ki construct krna yane ki objects ko banana 
 //same name hoga class ke as it is 
 //
 complex ::complex(void) //this is default constructor as it takes no parameter 
 {
-   a = 8;
+     a = 8;
    b = 5;
+   cout << "your number is " << a << "+i" << b << endl;
 }
 int main()
 {
    complex c;
-   c.printdata();
+   
    return 1;
 }

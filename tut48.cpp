@@ -48,7 +48,7 @@
     
     int d1, d2;
      public:
-     // ye base 1 or base 2 ke cinstructor se clall hi rha hai to mujhr // 
+     // ye base 1 or base 2 ke constructor se call hi rha hai to mujhr // 
     // base1 or base2 dono ke const ko call krna hai to uska syntax kuch ese hoga 
      derived( int a , int b , int c , int d): base1(a) , base2(b)
      //ye order matter nhi karega 

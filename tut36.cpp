@@ -35,20 +35,20 @@ class employee
 {
 public:
     int id;  // id is public 
-    float salary;
+   
      employee() {} // ek default constructor banana padega because derived class ka object base class ke 
     // constructor ko bhi calll karega 
     employee(int iid)
     {
         id = iid;
-        salary = 100;
+       
     }
 };
 // class programmer : employee
 class programmer : employee
 {
 public:
-    int langcode = 4;
+    
     programmer(int xid)
     {
         id = xid; // id abhi inherit nhi hogi because id jo hai vo employee class ki private member hain
@@ -62,8 +62,9 @@ public:
 int main()
 {
     employee harry(1);
-     cout << harry.salary;
+    
     programmer ansh(2);
+    
     // cout<<ansh.id;
      ansh.getdata();
 
@@ -71,7 +72,7 @@ int main()
     // at this point error ayega employee::employee because programmer employee se i nherit  hua hai to ye employee ke default constructor
     // ko call krne ki koshish karega jo ki hame banana padega
     // cout<<ansh.id;
-    ansh.getdata();
+    
 
     return 0;
 }

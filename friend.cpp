@@ -25,9 +25,10 @@ void printnumber (){
 //ek chor function bhi to ho sakta hai ye 
 //sumcompllex class ka member nhi bana hai matlab abhi objects sumcomplex ko access nhi kar sakte hai 
 int sumcomplex (complex o1 ,complex o2){
-
-return ((o1.a+o2.a)+(o1.b+o2.b) );
-
+int a1 , b1;
+a1=o1.a+o2.a;
+b1=o1.b+o2.b;
+cout <<"your number is "<<a1<<"+i"<<b1;
 }
 
 int main (){

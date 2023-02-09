@@ -55,12 +55,12 @@ int main()
     base2 job;
     // obj.greeting();
     // job.greeting();
-derived d;
-d.base2::greeting();
+derived dd;
+dd.base2::greeting();
 //  d.greeting(); // ye abhi ambigious hai kis class ka greeting lena hai 
-//  d d1;
+ d d1;
 
-// d1.say();
+ d1.say();
 
     return 0;
 }

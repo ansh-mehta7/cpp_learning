@@ -1,8 +1,9 @@
 //destructor never takes an argument nor does it takes return any value 
 #include <iostream>
 using namespace std;
+  int count=0 ;
 class  num  {
-    static int count ;
+   
 
 public :
 
@@ -19,7 +20,7 @@ count --;
 }
 
 };
-int num :: count ;
+
 int main (){
 cout<<"we are in main function "<<endl;
 cout<<"creating the first object num1 "<<endl;

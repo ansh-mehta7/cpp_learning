@@ -39,15 +39,17 @@ int main()
     harry.getdata();
     //harry.getcount();//////count is not static here thats why it is getting 1 for every object when it is called 
 employee::getcount();
+harry.getcount();
 
-    ansh.setdata();
-    ansh.getdata();
-    ansh.getcount();
+    // ansh.setdata();
+    // ansh.getdata();
+    // ansh.getcount();
 
-    ayush.setdata();
-    ayush.getdata();/////count abhi static nahi h islie har object ke lie vo 0 se initilaise ho rha hai 
+    // ayush.setdata();
+    // ayush.getdata();/////count abhi static nahi h islie har object ke lie vo 0 se initilaise ho rha hai 
 
-    ayush.getcount();//////count abhi static nahi h islie har object ke lie vo 0 se initilaise ho rha hai 
+   
+    // ayush.getcount();//////count abhi static nahi h islie har object ke lie vo 0 se initilaise ho rha hai 
 //cout<<employee::count;
 
     return 0;

@@ -23,7 +23,7 @@ public:
     }
 };
 
-class derived : public  base// class is being derived publically 
+class derived :   base// class is being derived publically 
 {
     int data3;
 
@@ -33,6 +33,7 @@ public:
     void display();
 };
 void derived :: process(){
+    setdata();
    // data 1 base class ka private meber h to directly acces ni kr skte ek member function 
     // ki help se access krna padega  getdata1 ka access kr sakte hain 
     data3 =data2*getdata1();
@@ -49,7 +50,7 @@ void derived :: display (){
 int main()
 {
 derived der;
-der.setdata();
+//der.setdata();
 der.process();
 der.display();
 

@@ -35,10 +35,10 @@ public:
 int main (){
  complex  c1(2,3);
      
-    c1.printNumber ();
-    complex c2( 3);
+    ex c2( 3);
     c2.printNumber();
-
+c1.printNumber ();
+    compl
 
 return 1;
 }
