@@ -1,3 +1,7 @@
-this are the codes i have practiced during my learnings of c++.it includes concepts like datat types to basic data structures.
-after these object orientd concepts and  pillars of OOPS have also been covered.
+c++ learning tutorial codes 
+includes concepts like 
+classes objects 
+constructors destructors 
+inheritence polymorphism overloadings etc
+learned from  youtube thanks to codewithharry  https://www.youtube.com/playlist?list=PLu0W_9lII9agpFUAlPFe_VNSlXW5uE0YL
 
